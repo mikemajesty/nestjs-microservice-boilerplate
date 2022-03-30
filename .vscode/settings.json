@@ -1,0 +1,21 @@
+{
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
+  "editor.formatOnSave": true,
+  "eslint.validate": ["typescript"],
+  "files.exclude": {
+    "**/.git": true,
+    "**/*lock*": true,
+    "**/*bin*": true,
+    "**/*coverage*": true
+  },
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+}
